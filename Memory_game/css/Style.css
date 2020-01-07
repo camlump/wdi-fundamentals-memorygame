@@ -1,0 +1,80 @@
+h1 {
+	font-family: "Raleway", sans-serif;
+	font-weight:400;
+	margin: 0;
+}
+
+p {
+	font-family: "Bitter", serif;
+}
+body{
+	text-align: center;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+h2 {
+	font-family: "Raleway";
+}
+
+header{
+	background-color: #f15b31;
+	color: white;
+	padding: 30px 20px 30px 20px;
+
+}
+nav{
+	background-color: #00a6b3;
+	font-color: white;
+	padding: 20px 0 20px 0;
+}
+
+a:hover{
+	margin: 0 20px 0 20px;
+	color: white;
+	border-bottom: 2px solid transparent;
+}
+main{
+	width: 850px
+	margin-top: 35px;
+	margin-bottom: 35px;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+}
+
+img{
+	margin: 40px 8px 40px 8px;
+}
+footer{
+	transform: uppercase;
+	padding: 0px 20px 0px 20px;
+	background-color: #0d2c40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+.copyright{
+	float: left;
+}
+.message{
+	float: right;
+}
+
+.name{
+	color: #f15b31;
+	font-weight: 700;
+
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
